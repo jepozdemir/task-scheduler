@@ -7,7 +7,7 @@ namespace TaskScheduling
     /// <summary>
     /// Schedule task runner
     /// </summary>
-    public partial class ScheduleTaskRunner : IScheduleTaskRunner
+    public class ScheduleTaskRunner : IScheduleTaskRunner
     {
         #region Fields
 

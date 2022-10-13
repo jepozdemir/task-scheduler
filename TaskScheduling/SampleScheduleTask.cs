@@ -6,7 +6,7 @@ namespace TaskScheduling
     /// <summary>
     /// Sample scheduled task implementation
     /// </summary>
-    public partial class SampleScheduleTask : IScheduleTask
+    public class SampleScheduleTask : IScheduleTask
     {
         /// <summary>
         /// Executes a task
